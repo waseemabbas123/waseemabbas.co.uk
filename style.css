@@ -1,0 +1,110 @@
+html {
+
+    background: url(background.jpg) no-repeat center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+
+  body {
+
+    margin: 0;
+    padding: 0;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.content {
+
+
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    text-align: center;
+    color: white;
+    height: 700px;
+    width: 750px;
+    margin: 0 auto;
+    margin-top: 50px;
+
+}
+
+
+.box-img {
+
+
+  object-position: 50% 50%;
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 50%;
+
+}
+
+
+.content h1 {
+
+    font-size: 50px;
+    letter-spacing: 4px;
+    font-weight: 100;
+}
+
+
+.content h3 {
+
+    letter-spacing: 1px;
+    font-weight: 50;
+}
+
+
+.content p {
+
+    font-size: 15px;
+    text-align: center;
+    letter-spacing: 1px;
+    line-height: 1.5;
+}
+
+#social_links {
+  /* removes bullet points*/
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+li {
+  padding: 40px 20px;
+  text-decoration: none;
+  display: inline-block;
+
+}
+
+li a {
+  color: white;
+}
+
+li:hover {
+    transform: translateY(-10px);
+    transition:0.3s;
+}
+
+
+/* shows the content tag element for a screen with a max width of 959px (mobile devices) */
+@media screen and (max-width:959px) {
+    .content {
+        width: 90%;
+        height: auto;
+        overflow: hidden;
+        padding-bottom: 0.5px;
+        margin-bottom: 50px;
+
+    }
+}
